@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.title("🏡 Bengaluru Real Estate Price Predictor")
+st.title("🏡  Real Estate Price Predictor")
 st.write("Enter the property details below to estimate the price in Lakhs (₹).")
 
 # Create input fields for the Indian housing market
