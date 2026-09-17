@@ -21,7 +21,7 @@ if st.button("Estimate Price"):
     
     # Send the data to your FastAPI backend
     try:
-        response = requests.post("[https://bengaluru-api.onrender.com/predict](https://bengaluru-api.onrender.com/predict)", json=payload)
+        response = requests.post("https://bengaluru-api.onrender.com/predict", json=payload)
         result = response.json()
         estimated_value = result["estimated_value_in_lakhs"]
         
